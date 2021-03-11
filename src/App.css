@@ -1,38 +1,112 @@
-.App {
+/* Body */
+
+
+/* body {
+  background-image: url("/public/assets/forest.jpg") no-repeat 50% fixed;
+  background-size: cover;
+} */
+
+/* Apply styles after scroll */
+.scrolling-active {
+  background-color: white;
+  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+  transition: .7s ease;
+}
+
+.scrolling-active nav {
+  height: 6.6rem;
+}
+
+.scrolling-active .nav a{
+  color: #070707;
+}
+
+/* Navigation */
+
+
+.nav-link, .navbar-brand {
+  color: black !important;
+}
+
+/* Header */
+
+header {
+  padding: 300px 0 400px;
+}
+
+.btn {
+  background-color: #1f2833;
+}
+
+
+/* About */
+
+section {
+  padding: 150px 0;
+}
+
+h1, h2, p {
+  font-family: 'Quattrocento', serif;
+}
+
+.line {
+  border-bottom: 2px ridge;
+  padding: 5px;
+}
+
+.calendar {
+  width: auto;
+}
+
+.badge1 {
+  background-color: #5d5c61;
+}
+
+.badge2 {
+  background-color: #b1a296;
+}
+
+.badge3 {
+  background-color: #557a95;
+}
+
+/* Projects */
+
+#card1 {
+  background-color: #557a95;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+/* Contact Page */
+
+#connect {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
   text-align: center;
+  padding: 20px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social {
+  text-align: center;
+  height: auto;
+  width: auto;
+  background: rgba(255, 255, 255, 0.144);
+  border-radius: 100%;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Footer */
+
+#black {
+  color: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  background-color: black;
 }
