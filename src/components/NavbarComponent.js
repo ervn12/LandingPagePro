@@ -21,12 +21,12 @@ class NavbarComponent extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar color="light" light sticky="top" expand="lg" >
-                    <NavbarBrand className="navbar-brand ml-5">
+                <Navbar color="light" light sticky="top" expand="md" >
+                    <NavbarBrand className="navbar-brand ml-5" href="/">
                         E
                     </NavbarBrand>
                     <div className="container">
-                        <NavbarToggler onClick={this.toggleNav} />
+                        <NavbarToggler onClick={this.toggleNav} className="ml-auto" />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="text-center text-uppercase mx-auto">
                                 <NavItem className="px5">
